@@ -2,7 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
-import { FiMail, FiMapPin, FiSend, FiCheck, FiAlertCircle } from 'react-icons/fi';
+import { FiMail, FiSend, FiCheck, FiAlertCircle, FiPhone, FiFacebook, FiLinkedin } from 'react-icons/fi';
 import './Contact.css';
 
 const Contact = () => {
@@ -40,7 +40,6 @@ const Contact = () => {
       setTimeout(() => setStatus('idle'), 5000);
     }
   };
-
   const contactInfo = [
     {
       icon: <FiMail size={24} />,
@@ -49,10 +48,22 @@ const Contact = () => {
       href: 'mailto:haubtm699@gmail.com',
     },
     {
-      icon: <FiMapPin size={24} />,
-      label: 'Location',
-      value: 'Vietnam',
-      href: '#',
+      icon: <FiPhone size={24} />,
+      label: 'Phone',
+      value: '0385345330',
+      href: 'tel:0385345330',
+    },
+    {
+      icon: <FiFacebook size={24} />,
+      label: 'Facebook',
+      value: 'Lê Bá Hậu',
+      href: 'https://www.facebook.com/le.ba.hau.98665/',
+    },
+    {
+      icon: <FiLinkedin size={24} />,
+      label: 'LinkedIn',
+      value: 'Lê Bá Hậu',
+      href: 'https://www.linkedin.com/in/bá-hậu-lê-97b15a35a/',
     },
   ];
 

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FiGithub, FiLinkedin, FiMail, FiHeart } from 'react-icons/fi';
+import { FiGithub, FiLinkedin, FiMail, FiHeart, FiFacebook } from 'react-icons/fi';
 import './Footer.css';
 
 const Footer = () => {
@@ -10,6 +10,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <FiGithub size={20} />, href: 'https://github.com/haubtm', label: 'GitHub' },
     { icon: <FiLinkedin size={20} />, href: 'https://www.linkedin.com/in/bá-hậu-lê-97b15a35a/', label: 'LinkedIn' },
+    { icon: <FiFacebook size={20} />, href: 'https://www.facebook.com/le.ba.hau.98665/', label: 'Facebook' },
     { icon: <FiMail size={20} />, href: 'mailto:haubtm699@gmail.com', label: 'Email' },
   ];
 
