@@ -1,73 +1,86 @@
-# React + TypeScript + Vite
+# Lê Bá Hậu - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern portfolio website built with React + Vite + TypeScript.
 
-Currently, two official plugins are available:
+![Portfolio Preview](./preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ⚡ **React 18** with Vite for fast development
+- 📝 **TypeScript** for type safety
+- 🎨 **Framer Motion** for smooth animations
+- 🌐 **i18n** - English/Vietnamese language support
+- 📧 **EmailJS** - Contact form with email integration
+- 📱 **Responsive** - Mobile-first design
+- 🌙 **Dark Theme** - Premium dark UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React + Vite
+- TypeScript
+- Framer Motion
+- react-i18next
+- EmailJS
+- react-icons
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Installation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```bash
+# Clone the repository
+git clone https://github.com/haubtm/portfolio.git
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Navigate to the project
+cd portfolio
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Install dependencies
+npm install
+
+# Create .env file (copy from .env.example)
+cp .env.example .env
+# Then fill in your EmailJS credentials
+
+# Start development server
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## ⚙️ Environment Variables
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Create a `.env` file in the root directory with the following variables:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
 ```
+
+Get your EmailJS credentials from [EmailJS Dashboard](https://dashboard.emailjs.com/).
+
+## 📁 Project Structure
+
+```
+src/
+├── components/     # Reusable components (Navbar, Footer)
+├── sections/       # Page sections (Hero, About, Skills, etc.)
+├── i18n/          # Translations (en.json, vi.json)
+└── index.css      # Global styles & design system
+```
+
+## 🚀 Deployment
+
+```bash
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 📧 Contact
+
+- **Email:** haubtm699@gmail.com
+- **GitHub:** [haubtm](https://github.com/haubtm)
+- **LinkedIn:** [Lê Bá Hậu](https://www.linkedin.com/in/bá-hậu-lê-97b15a35a/)
+
+## 📄 License
+
+MIT License - feel free to use this project for your own portfolio!
