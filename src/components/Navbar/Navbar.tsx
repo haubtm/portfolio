@@ -67,8 +67,8 @@ const Navbar = () => {
             scrollToSection('home');
           }}
         >
-          <span className="logo-text">LBH</span>
-          <span className="logo-dot">.</span>
+          <span className="logo-first">Lê Bá</span>
+          <span className="logo-highlight">Hậu</span>
         </motion.a>
 
         {/* Desktop Menu */}

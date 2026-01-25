@@ -24,8 +24,8 @@ const Footer = () => {
             viewport={{ once: true }}
           >
             <a href="#home" className="footer-logo">
-              <span className="logo-text">LBH</span>
-              <span className="logo-dot">.</span>
+              <span className="logo-first">Lê Bá</span>
+              <span className="logo-highlight">Hậu</span>
             </a>
           </motion.div>
 

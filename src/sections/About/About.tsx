@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { FiCode, FiBriefcase, FiCpu } from 'react-icons/fi';
+import profileImg from '../../assets/profile.jpg';
 import './About.css';
 
 const About = () => {
@@ -35,9 +36,7 @@ const About = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="about-image">
-              <div className="image-placeholder">
-                <span className="avatar-text">LBH</span>
-              </div>
+              <img src={profileImg} alt="Lê Bá Hậu" className="profile-image" />
               <div className="image-decoration"></div>
             </div>
           </motion.div>
