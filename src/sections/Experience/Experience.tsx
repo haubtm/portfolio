@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { FiBriefcase, FiCalendar, FiCheckCircle } from 'react-icons/fi';
+import { FiCalendar, FiCheckCircle, FiExternalLink } from 'react-icons/fi';
+import kngLogo from '../../assets/kng-logo.png';
 import './Experience.css';
 
 const Experience = () => {
@@ -47,8 +48,8 @@ const Experience = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="timeline-marker">
-              <div className="marker-dot">
-                <FiBriefcase size={20} />
+              <div className="marker-logo-container">
+                <img src={kngLogo} alt="KNG Logo" className="marker-logo" />
               </div>
               <div className="marker-line"></div>
             </div>
@@ -66,7 +67,17 @@ const Experience = () => {
               </div>
 
               <div className="project-card">
-                <h4 className="project-title">{t('experience.projectTitle')}</h4>
+                <div className="project-header-row">
+                  <h4 className="project-title">{t('experience.projectTitle')}</h4>
+                  <a 
+                    href="https://dev.center.kng.solutions/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="demo-btn"
+                  >
+                    Live Demo <FiExternalLink />
+                  </a>
+                </div>
                 <p className="project-description">{t('experience.projectDesc')}</p>
 
                 <div className="tech-stack">

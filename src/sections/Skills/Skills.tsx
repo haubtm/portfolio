@@ -25,38 +25,38 @@ const Skills = () => {
     {
       title: t('skills.languages'),
       skills: [
-        { name: 'JavaScript', icon: <SiJavascript /> },
-        { name: 'TypeScript', icon: <SiTypescript /> },
-        { name: 'Java', icon: <FaJava /> },
+        { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
+        { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
+        { name: 'Java', icon: <FaJava />, color: '#007396' },
       ],
     },
     {
       title: t('skills.frameworks'),
       skills: [
-        { name: 'React JS', icon: <SiReact /> },
-        { name: 'React Native', icon: <TbBrandReactNative /> },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss /> },
-        { name: 'Redux Toolkit', icon: <SiRedux /> },
-        { name: 'React Query', icon: <SiReact /> },
-        { name: 'Ant Design', icon: <MdOutlineDesignServices /> },
+        { name: 'React JS', icon: <SiReact />, color: '#61DAFB' },
+        { name: 'React Native', icon: <TbBrandReactNative />, color: '#61DAFB' },
+        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
+        { name: 'Redux Toolkit', icon: <SiRedux />, color: '#764ABC' },
+        { name: 'React Query', icon: <SiReact />, color: '#FF4154' },
+        { name: 'Ant Design', icon: <MdOutlineDesignServices />, color: '#0170FE' },
       ],
     },
     {
       title: t('skills.database'),
       skills: [
-        { name: 'MySQL', icon: <SiMysql /> },
-        { name: 'MongoDB', icon: <SiMongodb /> },
-        { name: 'MSSQL Server', icon: <FaDatabase /> },
+        { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
+        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
+        { name: 'MSSQL Server', icon: <FaDatabase />, color: '#CC2927' },
       ],
     },
     {
       title: t('skills.others'),
       skills: [
-        { name: 'HTML/CSS', icon: <SiHtml5 /> },
-        { name: 'Git', icon: <SiGit /> },
-        { name: 'RESTful API', icon: <TbApi /> },
-        { name: 'Postman', icon: <SiPostman /> },
-        { name: 'CSS3', icon: <SiCss3 /> },
+        { name: 'HTML5', icon: <SiHtml5 />, color: '#E34F26' },
+        { name: 'CSS3', icon: <SiCss3 />, color: '#1572B6' },
+        { name: 'Git', icon: <SiGit />, color: '#F05032' },
+        { name: 'RESTful API', icon: <TbApi />, color: '#009688' },
+        { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
       ],
     },
   ];
@@ -115,7 +115,9 @@ const Skills = () => {
                     variants={itemVariants}
                     whileHover={{ y: -4, scale: 1.02 }}
                   >
-                    <span className="skill-icon">{skill.icon}</span>
+                    <span className="skill-icon" style={{ color: skill.color }}>
+                      {skill.icon}
+                    </span>
                     <span className="skill-name">{skill.name}</span>
                   </motion.div>
                 ))}
