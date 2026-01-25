@@ -1,0 +1,83 @@
+{
+    "nav": {
+        "home": "Trang chủ",
+        "about": "Về tôi",
+        "skills": "Kỹ năng",
+        "experience": "Kinh nghiệm",
+        "projects": "Dự án",
+        "contact": "Liên hệ"
+    },
+    "hero": {
+        "greeting": "Xin chào, tôi là",
+        "name": "Lê Bá Hậu",
+        "role": "Frontend Developer",
+        "description": "Đam mê tạo ra những trải nghiệm web đẹp mắt và chức năng với các công nghệ hiện đại.",
+        "viewWork": "Xem Dự Án",
+        "contactMe": "Liên Hệ"
+    },
+    "about": {
+        "title": "Về Tôi",
+        "subtitle": "Tìm hiểu thêm về tôi",
+        "description": "Tôi là một Frontend Developer với 1 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại. Tôi chuyên về hệ sinh thái React và yêu thích việc tạo ra các giao diện người dùng trực quan với code sạch, dễ bảo trì.",
+        "yearsExp": "Năm Kinh Nghiệm",
+        "projectsCompleted": "Dự Án",
+        "techStack": "Công Nghệ"
+    },
+    "skills": {
+        "title": "Kỹ Năng",
+        "subtitle": "Các công nghệ tôi sử dụng",
+        "languages": "Ngôn ngữ",
+        "frameworks": "Frameworks & Libraries",
+        "database": "Cơ sở dữ liệu",
+        "others": "Khác"
+    },
+    "experience": {
+        "title": "Kinh Nghiệm",
+        "subtitle": "Hành trình nghề nghiệp của tôi",
+        "present": "Hiện tại",
+        "position": "Frontend Developer",
+        "company": "KNG SOLUTION",
+        "duration": "Tháng 06/2025 - Hiện tại",
+        "projectTitle": "Hệ thống Quản lý Giáo dục (EMS)",
+        "projectDesc": "Hệ thống quản lý toàn diện dành cho các tổ chức giáo dục, hỗ trợ vận hành giữa nhà trường, giáo viên và học sinh.",
+        "responsibilities": {
+            "admin": "Phát triển phân hệ Admin: Xây dựng các module quản lý dữ liệu tập trung (quản lý người dùng, khóa học, lớp học và phân quyền hệ thống).",
+            "teacher": "Phát triển phân hệ Giáo viên: Triển khai các tính năng nghiệp vụ như điểm danh, quản lý giáo án, nhập điểm và theo dõi tiến độ học tập.",
+            "uiux": "Tối ưu hóa UI/UX: Sử dụng Ant Design kết hợp với Tailwind CSS để xây dựng giao diện Dashboard chuyên nghiệp.",
+            "state": "Quản lý State: Sử dụng React Query cho server-side state và Redux Toolkit cho global application states.",
+            "collab": "Hợp tác: Làm việc chặt chẽ với Team Backend để thống nhất cấu trúc dữ liệu JSON và tích hợp RESTful API."
+        }
+    },
+    "projects": {
+        "title": "Dự Án",
+        "subtitle": "Một số sản phẩm tôi đã xây dựng",
+        "viewProject": "Xem Dự Án",
+        "viewCode": "Xem Code",
+        "ems": {
+            "title": "Hệ thống Quản lý Giáo dục",
+            "description": "Hệ thống toàn diện cho các tổ chức giáo dục với module admin và giáo viên, theo dõi điểm danh và quản lý điểm số."
+        },
+        "portfolio": {
+            "title": "Portfolio Cá Nhân",
+            "description": "Website portfolio hiện đại, responsive được xây dựng với React, TypeScript và Framer Motion cho animations mượt mà."
+        }
+    },
+    "contact": {
+        "title": "Liên Hệ",
+        "subtitle": "Hãy cùng làm việc",
+        "description": "Tôi đang tìm kiếm những cơ hội mới. Dù bạn có câu hỏi hay chỉ muốn chào hỏi, tôi sẽ cố gắng phản hồi sớm nhất có thể!",
+        "form": {
+            "name": "Họ và Tên",
+            "email": "Email của bạn",
+            "message": "Tin nhắn",
+            "send": "Gửi Tin Nhắn",
+            "sending": "Đang gửi...",
+            "success": "Tin nhắn đã được gửi thành công!",
+            "error": "Gửi tin nhắn thất bại. Vui lòng thử lại."
+        }
+    },
+    "footer": {
+        "designed": "Thiết kế & Xây dựng bởi",
+        "rights": "Đã đăng ký bản quyền."
+    }
+}
