@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Navbar.css';
 
-const navItems = ['home', 'about', 'skills', 'experience', 'projects', 'contact'];
+const navItems = ['home', 'about', 'education', 'skills', 'experience', 'projects', 'contact'];
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();

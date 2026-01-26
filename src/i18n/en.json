@@ -2,6 +2,7 @@
     "nav": {
         "home": "Home",
         "about": "About",
+        "education": "Education",
         "skills": "Skills",
         "experience": "Experience",
         "projects": "Projects",
@@ -22,6 +23,15 @@
         "yearsExp": "Year Experience",
         "projectsCompleted": "Projects",
         "techStack": "Technologies"
+    },
+    "education": {
+        "title": "Education",
+        "subtitle": "My academic background",
+        "university": "Industrial University of HCM City (IUH)",
+        "universityEn": "Đại học Công nghiệp TP.HCM",
+        "degree": "Software Engineer",
+        "duration": "08/2021 – 12/2025",
+        "gpa": "3.0"
     },
     "skills": {
         "title": "My Skills",

@@ -2,6 +2,7 @@
     "nav": {
         "home": "Trang chủ",
         "about": "Về tôi",
+        "education": "Học vấn",
         "skills": "Kỹ năng",
         "experience": "Kinh nghiệm",
         "projects": "Dự án",
@@ -22,6 +23,15 @@
         "yearsExp": "Năm Kinh Nghiệm",
         "projectsCompleted": "Dự Án",
         "techStack": "Công Nghệ"
+    },
+    "education": {
+        "title": "Học Vấn",
+        "subtitle": "Nền tảng học thuật của tôi",
+        "university": "Đại học Công nghiệp TP.HCM (IUH)",
+        "universityEn": "Industrial University of HCM City",
+        "degree": "Kỹ sư Công nghệ Phần mềm",
+        "duration": "08/2021 – 12/2025",
+        "gpa": "3.0"
     },
     "skills": {
         "title": "Kỹ Năng",
