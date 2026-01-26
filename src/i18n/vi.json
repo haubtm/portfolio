@@ -53,13 +53,40 @@
         "subtitle": "Một số sản phẩm tôi đã xây dựng",
         "viewProject": "Xem Dự Án",
         "viewCode": "Xem Code",
-        "ems": {
-            "title": "Hệ thống Quản lý Giáo dục",
-            "description": "Hệ thống toàn diện cho các tổ chức giáo dục với module admin và giáo viên, theo dõi điểm danh và quản lý điểm số."
-        },
         "portfolio": {
             "title": "Portfolio Cá Nhân",
-            "description": "Website portfolio hiện đại, responsive được xây dựng với React, TypeScript và Framer Motion cho animations mượt mà."
+            "description": "Website portfolio hiện đại, responsive được xây dựng với React, TypeScript và Framer Motion cho animations mượt mà.",
+            "role": "Frontend Developer",
+            "duration": "12/2025 – Hiện tại",
+            "teamSize": "1 thành viên"
+        },
+        "nexamart": {
+            "title": "Hệ thống Quản lý Siêu thị Thông minh với AI Chatbot",
+            "description": "Hệ sinh thái thương mại điện tử và quản lý bán lẻ toàn diện với trợ lý AI hướng tác vụ. Bao gồm giao diện chatbot AI, dashboard quản trị và ứng dụng mua sắm di động.",
+            "role": "Frontend Developer (Web & Mobile AI Integration)",
+            "duration": "07/2025 – 12/2025",
+            "teamSize": "2 thành viên"
+        },
+        "ems": {
+            "title": "Hệ thống Quản lý Giáo dục (EMS)",
+            "description": "Hệ thống quản lý toàn diện cho các tổ chức giáo dục với module admin và giáo viên, theo dõi điểm danh và quản lý điểm số.",
+            "role": "Frontend Developer",
+            "duration": "06/2025 – Hiện tại",
+            "teamSize": "10 thành viên"
+        },
+        "pcstore": {
+            "title": "Website Cửa hàng Linh kiện PC & Điện tử",
+            "description": "Hệ thống thương mại điện tử dựa trên microservices với các dịch vụ cốt lõi bao gồm Product, User, Payment và ChatAI.",
+            "role": "Backend Developer",
+            "duration": "02/2025 – 05/2025",
+            "teamSize": "3 thành viên"
+        },
+        "zaloclone": {
+            "title": "Ứng dụng Chat Zalo Clone",
+            "description": "Ứng dụng nhắn tin thời gian thực đa nền tảng, tái tạo các tính năng cốt lõi của một nền tảng chat xã hội hiện đại. Hỗ trợ chat 1-1, nhóm và chia sẻ media.",
+            "role": "Mobile Developer",
+            "duration": "01/2025 – 05/2025",
+            "teamSize": "5 thành viên"
         }
     },
     "contact": {

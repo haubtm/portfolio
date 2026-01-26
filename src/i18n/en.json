@@ -54,12 +54,39 @@
         "viewProject": "View Project",
         "viewCode": "View Code",
         "ems": {
-            "title": "Education Management System",
-            "description": "A comprehensive system for educational institutions with admin and teacher modules, attendance tracking, and grade management."
+            "title": "Education Management System (EMS)",
+            "description": "A comprehensive system for educational institutions with admin and teacher modules, attendance tracking, and grade management.",
+            "role": "Frontend Developer",
+            "duration": "06/2025 – Present",
+            "teamSize": "10 members"
+        },
+        "nexamart": {
+            "title": "Smart Supermarket Management System with AI Chatbot",
+            "description": "A comprehensive e-commerce and retail management ecosystem featuring a task-oriented AI assistant. Includes AI chatbot interface, admin dashboard, and mobile shopping app.",
+            "role": "Frontend Developer (Web & Mobile AI Integration)",
+            "duration": "07/2025 – 12/2025",
+            "teamSize": "2 members"
         },
         "portfolio": {
             "title": "Personal Portfolio",
-            "description": "A modern, responsive portfolio website built with React, TypeScript, and Framer Motion for smooth animations."
+            "description": "A modern, responsive portfolio website built with React, TypeScript, and Framer Motion for smooth animations.",
+            "role": "Frontend Developer",
+            "duration": "12/2025 – Present",
+            "teamSize": "1 member"
+        },
+        "pcstore": {
+            "title": "PC & Electronic Components Store Website",
+            "description": "A microservices-based e-commerce system with core services including Product, User, Payment, and ChatAI.",
+            "role": "Backend Developer",
+            "duration": "02/2025 – 05/2025",
+            "teamSize": "3 members"
+        },
+        "zaloclone": {
+            "title": "Zalo Clone Chat Application",
+            "description": "A cross-platform real-time messaging application replicating core features of a modern social chat platform. Supports 1-on-1, group chat, and media sharing.",
+            "role": "Mobile Developer",
+            "duration": "01/2025 – 05/2025",
+            "teamSize": "5 members"
         }
     },
     "contact": {

@@ -116,6 +116,53 @@
     color: var(--accent-primary);
 }
 
+/* Project meta info for featured projects */
+.project-meta {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.project-role {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    margin-bottom: 10px;
+}
+
+.project-info-row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.project-duration,
+.project-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.project-duration svg,
+.project-team svg {
+    color: var(--accent-primary);
+}
+
+/* Featured project styles */
+.project-card.featured {
+    border-color: rgba(99, 102, 241, 0.3);
+}
+
+.project-card.featured::before {
+    transform: scaleX(1);
+}
+
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: 1fr;
@@ -123,5 +170,10 @@
 
     .project-card {
         padding: 24px;
+    }
+
+    .project-info-row {
+        flex-direction: column;
+        gap: 8px;
     }
 }
