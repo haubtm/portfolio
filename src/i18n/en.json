@@ -14,7 +14,8 @@
         "role": "Frontend Developer",
         "description": "Passionate about creating beautiful and functional web experiences with modern technologies.",
         "viewWork": "View My Work",
-        "contactMe": "Contact Me"
+        "contactMe": "Contact Me",
+        "viewCV": "View CV"
     },
     "about": {
         "title": "About Me",
@@ -116,5 +117,11 @@
     "footer": {
         "designed": "Designed & Built by",
         "rights": "All rights reserved."
+    },
+    "cv": {
+        "title": "My CV",
+        "download": "Download CV",
+        "openNewTab": "Open in new tab",
+        "close": "Close"
     }
 }

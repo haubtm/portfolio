@@ -14,7 +14,8 @@
         "role": "Frontend Developer",
         "description": "Đam mê tạo ra những trải nghiệm web đẹp mắt và chức năng với các công nghệ hiện đại.",
         "viewWork": "Xem Dự Án",
-        "contactMe": "Liên Hệ"
+        "contactMe": "Liên Hệ",
+        "viewCV": "Xem CV"
     },
     "about": {
         "title": "Về Tôi",
@@ -116,5 +117,11 @@
     "footer": {
         "designed": "Thiết kế & Xây dựng bởi",
         "rights": "Đã đăng ký bản quyền."
+    },
+    "cv": {
+        "title": "CV Của Tôi",
+        "download": "Tải CV",
+        "openNewTab": "Mở trong tab mới",
+        "close": "Đóng"
     }
 }
