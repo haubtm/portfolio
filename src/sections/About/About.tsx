@@ -1,16 +1,24 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { FiCode, FiBriefcase, FiCpu } from 'react-icons/fi';
-import profileImg from '../../assets/profile.jpg';
-import './About.css';
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { FiCode, FiBriefcase, FiCpu } from "react-icons/fi";
+import profileImg from "../../assets/profile.jpg";
+import "./About.css";
 
 const About = () => {
   const { t } = useTranslation();
 
   const stats = [
-    { icon: <FiBriefcase size={24} />, value: '1+', label: t('about.yearsExp') },
-    { icon: <FiCode size={24} />, value: '5+', label: t('about.projectsCompleted') },
-    { icon: <FiCpu size={24} />, value: '15+', label: t('about.techStack') },
+    {
+      icon: <FiBriefcase size={24} />,
+      value: "1+",
+      label: t("about.yearsExp"),
+    },
+    {
+      icon: <FiCode size={24} />,
+      value: "6+",
+      label: t("about.projectsCompleted"),
+    },
+    { icon: <FiCpu size={24} />, value: "20+", label: t("about.techStack") },
   ];
 
   return (
@@ -23,8 +31,8 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="section-title">{t('about.title')}</h2>
-          <p className="section-subtitle">{t('about.subtitle')}</p>
+          <h2 className="section-title">{t("about.title")}</h2>
+          <p className="section-subtitle">{t("about.subtitle")}</p>
         </motion.div>
 
         <div className="about-content">
@@ -48,7 +56,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <p className="about-description">{t('about.description')}</p>
+            <p className="about-description">{t("about.description")}</p>
 
             <div className="about-stats">
               {stats.map((stat, index) => (

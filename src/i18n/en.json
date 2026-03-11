@@ -11,8 +11,8 @@
     "hero": {
         "greeting": "Hello, I'm",
         "name": "Le Ba Hau",
-        "role": "Frontend Developer",
-        "description": "Passionate about creating beautiful and functional web experiences with modern technologies.",
+        "role": "Full-Stack Developer",
+        "description": "Full-Stack Developer experienced in building web applications with ReactJS, NextJS, and NodeJS. Passionate about performance optimization, clean code, and delivering high-quality systems.",
         "viewWork": "View My Work",
         "contactMe": "Contact Me",
         "viewCV": "View CV"
@@ -20,7 +20,7 @@
     "about": {
         "title": "About Me",
         "subtitle": "Get to know me better",
-        "description": "I'm a Frontend Developer with 1 year of experience in building modern web applications. I specialize in React ecosystem and love creating intuitive user interfaces with clean, maintainable code.",
+        "description": "I'm a Full-Stack Developer experienced in building web applications with ReactJS, NextJS, and NodeJS. Skilled in end-to-end development including Frontend UI, Backend APIs, database architecture, and cloud deployment. Passionate about performance optimization, writing maintainable code, and delivering high-quality systems.",
         "yearsExp": "Year Experience",
         "projectsCompleted": "Projects",
         "techStack": "Technologies"
@@ -38,25 +38,28 @@
         "title": "My Skills",
         "subtitle": "Technologies I work with",
         "languages": "Languages",
-        "frameworks": "Frameworks & Libraries",
+        "frontend": "Frontend",
+        "backend": "Backend",
         "database": "Database",
+        "devops": "DevOps",
         "others": "Others"
     },
     "experience": {
         "title": "Experience",
         "subtitle": "My professional journey",
         "present": "Present",
-        "position": "Frontend Developer",
-        "company": "KNG SOLUTION",
+        "position": "Full-Stack Developer",
+        "company": "KNG Solutions",
         "duration": "June 2025 - Present",
         "projectTitle": "Education Management System (EMS)",
-        "projectDesc": "A comprehensive management system for educational institutions, supporting operations between schools, teachers, and students.",
+        "projectDesc": "A large-scale management system for educational institutions, supporting operations between schools, teachers, and students.",
         "responsibilities": {
-            "admin": "Developed Admin module: Built centralized data management modules (user management, courses, classes, and system permissions).",
-            "teacher": "Developed Teacher module: Implemented business features such as attendance, lesson plan management, grading, and student progress tracking.",
-            "uiux": "UI/UX Optimization: Used Ant Design combined with Tailwind CSS customization to build professional Dashboard interfaces.",
-            "state": "State Management: Utilized React Query for server-side state management and Redux Toolkit for global application states.",
-            "collab": "Collaboration: Worked closely with Backend team to align JSON data structures and integrate RESTful APIs effectively."
+            "frontend": "Built responsive frontend features using ReactJS, NextJS, and TypeScript from Figma designs.",
+            "backend": "Designed and implemented backend APIs using NodeJS (NestJS/Express) for student records, schedules, and learning workflows.",
+            "auth": "Implemented JWT authentication and Role-Based Access Control (RBAC).",
+            "api": "Integrated RESTful APIs using TanStack Query for optimized data fetching and caching.",
+            "performance": "Improved application performance by 25% through code splitting, lazy loading, and state management optimization.",
+            "shared": "Developed shared UI components and custom hooks to increase development efficiency."
         }
     },
     "projects": {
@@ -66,15 +69,22 @@
         "viewCode": "View Code",
         "ems": {
             "title": "Education Management System (EMS)",
-            "description": "A comprehensive system for educational institutions with admin and teacher modules, attendance tracking, and grade management.",
-            "role": "Frontend Developer",
+            "description": "A large-scale management system for educational institutions with frontend and backend modules, JWT authentication, RBAC, and performance optimization.",
+            "role": "Full-Stack Developer",
             "duration": "06/2025 – Present",
             "teamSize": "10 members"
         },
+        "melodix": {
+            "title": "Melodix - Online Music Streaming Platform",
+            "description": "A full-stack music streaming platform with SSR for SEO optimization, AWS S3 for audio storage and streaming, deployed with Docker, AWS EC2 and CI/CD.",
+            "role": "Full-Stack Developer",
+            "duration": "01/2026 – Present",
+            "teamSize": "1 member"
+        },
         "nexamart": {
-            "title": "Smart Supermarket Management System with AI Chatbot",
-            "description": "A comprehensive e-commerce and retail management ecosystem featuring a task-oriented AI assistant. Includes AI chatbot interface, admin dashboard, and mobile shopping app.",
-            "role": "Frontend Developer (Web & Mobile AI Integration)",
+            "title": "Nexa-mart - AI Retail Platform",
+            "description": "Admin dashboard with ReactJS and mobile app with React Native. Integrated Gemini AI API for customer support chatbot and PayOS payment gateway. Achieved Excellent grade and published paper at SSRC 2025.",
+            "role": "Full-Stack Developer",
             "duration": "07/2025 – 12/2025",
             "teamSize": "2 members"
         },

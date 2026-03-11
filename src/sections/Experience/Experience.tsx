@@ -1,28 +1,32 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { FiCalendar, FiCheckCircle, FiExternalLink } from 'react-icons/fi';
-import kngLogo from '../../assets/kng-logo.png';
-import './Experience.css';
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { FiCalendar, FiCheckCircle, FiExternalLink } from "react-icons/fi";
+import kngLogo from "../../assets/kng-logo.png";
+import "./Experience.css";
 
 const Experience = () => {
   const { t } = useTranslation();
 
   const responsibilities = [
-    t('experience.responsibilities.admin'),
-    t('experience.responsibilities.teacher'),
-    t('experience.responsibilities.uiux'),
-    t('experience.responsibilities.state'),
-    t('experience.responsibilities.collab'),
+    t("experience.responsibilities.frontend"),
+    t("experience.responsibilities.backend"),
+    t("experience.responsibilities.auth"),
+    t("experience.responsibilities.api"),
+    t("experience.responsibilities.performance"),
+    t("experience.responsibilities.shared"),
   ];
 
   const technologies = [
-    'ReactJS',
-    'TypeScript',
-    'Ant Design',
-    'Tailwind CSS',
-    'React Query',
-    'Redux Toolkit',
-    'RESTful API',
+    "ReactJS",
+    "NextJS",
+    "TypeScript",
+    "NestJS/Express",
+    "Prisma ORM",
+    "PostgreSQL",
+    "JWT Auth",
+    "TanStack Query",
+    "Ant Design",
+    "Tailwind CSS",
   ];
 
   return (
@@ -35,8 +39,8 @@ const Experience = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="section-title">{t('experience.title')}</h2>
-          <p className="section-subtitle">{t('experience.subtitle')}</p>
+          <h2 className="section-title">{t("experience.title")}</h2>
+          <p className="section-subtitle">{t("experience.subtitle")}</p>
         </motion.div>
 
         <div className="experience-timeline">
@@ -57,28 +61,32 @@ const Experience = () => {
             <div className="timeline-content">
               <div className="experience-header">
                 <div className="experience-title">
-                  <h3 className="company-name">{t('experience.company')}</h3>
-                  <span className="position">{t('experience.position')}</span>
+                  <h3 className="company-name">{t("experience.company")}</h3>
+                  <span className="position">{t("experience.position")}</span>
                 </div>
                 <div className="experience-date">
                   <FiCalendar size={16} />
-                  <span>{t('experience.duration')}</span>
+                  <span>{t("experience.duration")}</span>
                 </div>
               </div>
 
               <div className="project-card">
                 <div className="project-header-row">
-                  <h4 className="project-title">{t('experience.projectTitle')}</h4>
-                  <a 
-                    href="https://dev.center.kng.solutions/" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <h4 className="project-title">
+                    {t("experience.projectTitle")}
+                  </h4>
+                  <a
+                    href="https://dev.center.kng.solutions/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="demo-btn"
                   >
                     Live Demo <FiExternalLink />
                   </a>
                 </div>
-                <p className="project-description">{t('experience.projectDesc')}</p>
+                <p className="project-description">
+                  {t("experience.projectDesc")}
+                </p>
 
                 <div className="tech-stack">
                   {technologies.map((tech, index) => (

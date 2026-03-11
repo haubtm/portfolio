@@ -10,12 +10,12 @@ interface CVViewerProps {
 
 const CVViewer = ({ isOpen, onClose }: CVViewerProps) => {
   const { t } = useTranslation();
-  const cvUrl = "/LeBaHau_FrontendDeveloper.pdf";
+  const cvUrl = "/LeBaHau_FullstackDeveloper.pdf";
 
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.download = "LeBaHau_FrontendDeveloper.pdf";
+    link.download = "LeBaHau_FullstackDeveloper.pdf";
     link.click();
   };
 

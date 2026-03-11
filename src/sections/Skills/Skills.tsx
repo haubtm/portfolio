@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import {
   SiJavascript,
   SiTypescript,
@@ -9,54 +9,96 @@ import {
   SiMongodb,
   SiMysql,
   SiGit,
-  SiPostman,
-  SiHtml5,
-  SiCss3,
-} from 'react-icons/si';
-import { FaJava, FaDatabase } from 'react-icons/fa';
-import { TbApi, TbBrandReactNative } from 'react-icons/tb';
-import { MdOutlineDesignServices } from 'react-icons/md';
-import './Skills.css';
+  SiNextdotjs,
+  SiNestjs,
+  SiExpress,
+  SiPrisma,
+  SiPostgresql,
+  SiRedis,
+  SiDocker,
+  SiAmazonec2,
+  SiAmazons3,
+  SiNginx,
+  SiJira,
+  SiPassport,
+} from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
+import { TbApi, TbBrandReactNative, TbBrandFigma } from "react-icons/tb";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { GoWorkflow } from "react-icons/go";
+import { VscServerProcess } from "react-icons/vsc";
+import "./Skills.css";
 
 const Skills = () => {
   const { t } = useTranslation();
 
   const skillCategories = [
     {
-      title: t('skills.languages'),
+      title: t("skills.languages"),
       skills: [
-        { name: 'JavaScript', icon: <SiJavascript />, color: '#F7DF1E' },
-        { name: 'TypeScript', icon: <SiTypescript />, color: '#3178C6' },
-        { name: 'Java', icon: <FaJava />, color: '#007396' },
+        { name: "JavaScript", icon: <SiJavascript />, color: "#F7DF1E" },
+        { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
+        { name: "SQL", icon: <FaDatabase />, color: "#336791" },
       ],
     },
     {
-      title: t('skills.frameworks'),
+      title: t("skills.frontend"),
       skills: [
-        { name: 'React JS', icon: <SiReact />, color: '#61DAFB' },
-        { name: 'React Native', icon: <TbBrandReactNative />, color: '#61DAFB' },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: '#06B6D4' },
-        { name: 'Redux Toolkit', icon: <SiRedux />, color: '#764ABC' },
-        { name: 'React Query', icon: <SiReact />, color: '#FF4154' },
-        { name: 'Ant Design', icon: <MdOutlineDesignServices />, color: '#0170FE' },
+        { name: "ReactJS", icon: <SiReact />, color: "#61DAFB" },
+        { name: "NextJS", icon: <SiNextdotjs />, color: "#ffffff" },
+        {
+          name: "React Native",
+          icon: <TbBrandReactNative />,
+          color: "#61DAFB",
+        },
+        { name: "Redux Toolkit", icon: <SiRedux />, color: "#764ABC" },
+        { name: "Zustand", icon: <SiReact />, color: "#453F39" },
+        { name: "TanStack Query", icon: <SiReact />, color: "#FF4154" },
+        { name: "TailwindCSS", icon: <SiTailwindcss />, color: "#06B6D4" },
+        {
+          name: "Ant Design",
+          icon: <MdOutlineDesignServices />,
+          color: "#0170FE",
+        },
       ],
     },
     {
-      title: t('skills.database'),
+      title: t("skills.backend"),
       skills: [
-        { name: 'MySQL', icon: <SiMysql />, color: '#4479A1' },
-        { name: 'MongoDB', icon: <SiMongodb />, color: '#47A248' },
-        { name: 'MSSQL Server', icon: <FaDatabase />, color: '#CC2927' },
+        { name: "NodeJS (NestJS)", icon: <SiNestjs />, color: "#E0234E" },
+        { name: "Express", icon: <SiExpress />, color: "#ffffff" },
+        { name: "REST APIs", icon: <TbApi />, color: "#009688" },
+        { name: "JWT Auth", icon: <SiPassport />, color: "#34E27A" },
+        { name: "Passport", icon: <SiPassport />, color: "#34E27A" },
+        { name: "Prisma ORM", icon: <SiPrisma />, color: "#2D3748" },
       ],
     },
     {
-      title: t('skills.others'),
+      title: t("skills.database"),
       skills: [
-        { name: 'HTML5', icon: <SiHtml5 />, color: '#E34F26' },
-        { name: 'CSS3', icon: <SiCss3 />, color: '#1572B6' },
-        { name: 'Git', icon: <SiGit />, color: '#F05032' },
-        { name: 'RESTful API', icon: <TbApi />, color: '#009688' },
-        { name: 'Postman', icon: <SiPostman />, color: '#FF6C37' },
+        { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
+        { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
+        { name: "MongoDB", icon: <SiMongodb />, color: "#47A248" },
+        { name: "Redis", icon: <SiRedis />, color: "#DC382D" },
+      ],
+    },
+    {
+      title: t("skills.devops"),
+      skills: [
+        { name: "Docker", icon: <SiDocker />, color: "#2496ED" },
+        { name: "AWS EC2", icon: <SiAmazonec2 />, color: "#FF9900" },
+        { name: "AWS S3", icon: <SiAmazons3 />, color: "#569A31" },
+        { name: "Nginx", icon: <SiNginx />, color: "#009639" },
+        { name: "CI/CD", icon: <VscServerProcess />, color: "#4CAF50" },
+      ],
+    },
+    {
+      title: t("skills.others"),
+      skills: [
+        { name: "Git", icon: <SiGit />, color: "#F05032" },
+        { name: "Jira", icon: <SiJira />, color: "#0052CC" },
+        { name: "Agile", icon: <GoWorkflow />, color: "#4CAF50" },
+        { name: "Figma-to-Code", icon: <TbBrandFigma />, color: "#F24E1E" },
       ],
     },
   ];
@@ -86,8 +128,8 @@ const Skills = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="section-title">{t('skills.title')}</h2>
-          <p className="section-subtitle">{t('skills.subtitle')}</p>
+          <h2 className="section-title">{t("skills.title")}</h2>
+          <p className="section-subtitle">{t("skills.subtitle")}</p>
         </motion.div>
 
         <div className="skills-grid">

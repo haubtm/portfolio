@@ -11,8 +11,8 @@
     "hero": {
         "greeting": "Xin chào, tôi là",
         "name": "Lê Bá Hậu",
-        "role": "Frontend Developer",
-        "description": "Đam mê tạo ra những trải nghiệm web đẹp mắt và chức năng với các công nghệ hiện đại.",
+        "role": "Full-Stack Developer",
+        "description": "Lập trình viên Full-Stack có kinh nghiệm xây dựng các ứng dụng web với ReactJS, NextJS và NodeJS. Đam mê tối ưu hóa hiệu suất, viết mã nguồn sạch và cung cấp các hệ thống chất lượng cao.",
         "viewWork": "Xem Dự Án",
         "contactMe": "Liên Hệ",
         "viewCV": "Xem CV"
@@ -20,7 +20,7 @@
     "about": {
         "title": "Về Tôi",
         "subtitle": "Tìm hiểu thêm về tôi",
-        "description": "Tôi là một Frontend Developer với 1 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại. Tôi chuyên về hệ sinh thái React và yêu thích việc tạo ra các giao diện người dùng trực quan với code sạch, dễ bảo trì.",
+        "description": "Tôi là một lập trình viên Full-Stack có kinh nghiệm xây dựng các ứng dụng web với ReactJS, NextJS và NodeJS. Có kỹ năng phát triển hệ thống từ đầu đến cuối bao gồm giao diện người dùng (Frontend), API (Backend), kiến trúc cơ sở dữ liệu và triển khai đám mây. Đam mê tối ưu hóa hiệu suất, viết mã nguồn dễ bảo trì và cung cấp các hệ thống chất lượng cao.",
         "yearsExp": "Năm Kinh Nghiệm",
         "projectsCompleted": "Dự Án",
         "techStack": "Công Nghệ"
@@ -38,25 +38,28 @@
         "title": "Kỹ Năng",
         "subtitle": "Các công nghệ tôi sử dụng",
         "languages": "Ngôn ngữ",
-        "frameworks": "Frameworks & Libraries",
+        "frontend": "Frontend",
+        "backend": "Backend",
         "database": "Cơ sở dữ liệu",
+        "devops": "DevOps",
         "others": "Khác"
     },
     "experience": {
         "title": "Kinh Nghiệm",
         "subtitle": "Hành trình nghề nghiệp của tôi",
         "present": "Hiện tại",
-        "position": "Frontend Developer",
-        "company": "KNG SOLUTION",
+        "position": "Full-Stack Developer",
+        "company": "KNG Solutions",
         "duration": "Tháng 06/2025 - Hiện tại",
         "projectTitle": "Hệ thống Quản lý Giáo dục (EMS)",
-        "projectDesc": "Hệ thống quản lý toàn diện dành cho các tổ chức giáo dục, hỗ trợ vận hành giữa nhà trường, giáo viên và học sinh.",
+        "projectDesc": "Hệ thống quản lý quy mô lớn dành cho các tổ chức giáo dục, hỗ trợ vận hành giữa nhà trường, giáo viên và học sinh.",
         "responsibilities": {
-            "admin": "Phát triển phân hệ Admin: Xây dựng các module quản lý dữ liệu tập trung (quản lý người dùng, khóa học, lớp học và phân quyền hệ thống).",
-            "teacher": "Phát triển phân hệ Giáo viên: Triển khai các tính năng nghiệp vụ như điểm danh, quản lý giáo án, nhập điểm và theo dõi tiến độ học tập.",
-            "uiux": "Tối ưu hóa UI/UX: Sử dụng Ant Design kết hợp với Tailwind CSS để xây dựng giao diện Dashboard chuyên nghiệp.",
-            "state": "Quản lý State: Sử dụng React Query cho server-side state và Redux Toolkit cho global application states.",
-            "collab": "Hợp tác: Làm việc chặt chẽ với Team Backend để thống nhất cấu trúc dữ liệu JSON và tích hợp RESTful API."
+            "frontend": "Xây dựng các tính năng frontend phản hồi nhanh bằng ReactJS, NextJS và TypeScript từ thiết kế Figma.",
+            "backend": "Thiết kế và triển khai backend API bằng NodeJS (NestJS/Express) để quản lý hồ sơ sinh viên, lịch trình và quy trình học tập.",
+            "auth": "Triển khai xác thực JWT và kiểm soát truy cập dựa trên vai trò (RBAC).",
+            "api": "Tích hợp RESTful API bằng TanStack Query để tối ưu hóa việc tìm nạp và lưu trữ dữ liệu.",
+            "performance": "Cải thiện 25% hiệu suất ứng dụng thông qua code splitting, lazy loading và tối ưu hóa quản lý trạng thái.",
+            "shared": "Phát triển các thành phần UI dùng chung và custom hooks để tăng hiệu suất phát triển."
         }
     },
     "projects": {
@@ -72,18 +75,25 @@
             "teamSize": "1 thành viên"
         },
         "nexamart": {
-            "title": "Hệ thống Quản lý Siêu thị Thông minh với AI Chatbot",
-            "description": "Hệ sinh thái thương mại điện tử và quản lý bán lẻ toàn diện với trợ lý AI hướng tác vụ. Bao gồm giao diện chatbot AI, dashboard quản trị và ứng dụng mua sắm di động.",
+            "title": "Nexa-mart - Nền tảng bán lẻ AI",
+            "description": "Dashboard quản lý bằng ReactJS và ứng dụng di động bằng React Native. Tích hợp Gemini AI API cho chatbot hỗ trợ khách hàng và cổng thanh toán PayOS. Đạt loại Xuất sắc và có bài báo đăng tại SSRC 2025.",
             "role": "Frontend Developer (Web & Mobile AI Integration)",
             "duration": "07/2025 – 12/2025",
             "teamSize": "2 thành viên"
         },
         "ems": {
             "title": "Hệ thống Quản lý Giáo dục (EMS)",
-            "description": "Hệ thống quản lý toàn diện cho các tổ chức giáo dục với module admin và giáo viên, theo dõi điểm danh và quản lý điểm số.",
-            "role": "Frontend Developer",
+            "description": "Hệ thống quản lý quy mô lớn cho các tổ chức giáo dục với module frontend và backend, xác thực JWT, RBAC và tối ưu hiệu suất.",
+            "role": "Full-Stack Developer",
             "duration": "06/2025 – Hiện tại",
             "teamSize": "10 thành viên"
+        },
+        "melodix": {
+            "title": "Melodix - Nền tảng phát nhạc trực tuyến",
+            "description": "Nền tảng nghe nhạc full-stack với SSR để tối ưu SEO, AWS S3 để lưu trữ và phát âm thanh, triển khai với Docker, AWS EC2 và CI/CD.",
+            "role": "Full-Stack Developer",
+            "duration": "01/2026 – Hiện tại",
+            "teamSize": "1 thành viên"
         },
         "pcstore": {
             "title": "Website Cửa hàng Linh kiện PC & Điện tử",
