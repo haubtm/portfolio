@@ -76,7 +76,7 @@ const Experience = () => {
                     {t("experience.projectTitle")}
                   </h4>
                   <a
-                    href="https://dev.center.kng.solutions/"
+                    href="https://center.kng.solutions/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="demo-btn"

@@ -34,7 +34,7 @@ const Projects = () => {
         "Ant Design",
       ],
       github: [],
-      demo: "https://dev.center.kng.solutions/",
+      demo: "https://center.kng.solutions/",
       featured: true,
     },
     // Melodix - Online Music Streaming Platform (2026)
